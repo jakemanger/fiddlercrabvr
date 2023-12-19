@@ -1,6 +1,6 @@
 # Fiddler crab virtual reality experiments
 
-![Screen Recording 2023-12-19 at 2 03 27 pm](https://github.com/jakemanger/NEVE/assets/52495554/d00b24bb-34d4-4b8e-8501-f4b0cf9d4761)
+![image](https://github.com/jakemanger/fiddlercrabvr/assets/52495554/c5898b7e-17e1-41e7-821e-c84e189b76ae)
 
 
 The below instructions are a guide on how to run the fiddler crab virtual reality experiments in Ogawa et al. (2024).
@@ -152,7 +152,7 @@ Start the GUI for controlling the experiment and select the "loom_with_crab.yaml
 python control_simulation.py
 ```
 
-<img width="616" alt="image" src="https://github.com/jakemanger/NEVE/assets/52495554/e7618ff2-71b9-496d-a3da-0f902c108c9e">
+![image](https://github.com/jakemanger/fiddlercrabvr/assets/52495554/4000b3f7-c291-48c9-b743-6b50e9df42d1)
 
 
 Click Start to start the stimulus. You should see control-related messages in the console and the
@@ -160,7 +160,7 @@ stimulus displayed on your designated screen (specified by your config file).
 
 Expected output on GUI:
 
-<img width="618" alt="image" src="https://github.com/jakemanger/NEVE/assets/52495554/1daea4b5-75bb-4f1b-8a8e-49dc474ccc41">
+![Uploading image.png…]()
 
 Expected stimulus with `./configs/loom_with_crab.yaml`
 
