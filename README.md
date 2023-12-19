@@ -1,6 +1,6 @@
 # Fiddler crab virtual reality experiments
 
-![image](https://github.com/jakemanger/fiddlercrabvr/assets/52495554/c5898b7e-17e1-41e7-821e-c84e189b76ae)
+![Screen Recording 2023-12-19 at 2 03 27 pm](https://github.com/jakemanger/fiddlercrabvr/assets/52495554/eaebb201-b7c1-42ea-a0f8-4a5d0064df0c)
 
 
 The below instructions are a guide on how to run the fiddler crab virtual reality experiments in Ogawa et al. (2024).
@@ -160,7 +160,8 @@ stimulus displayed on your designated screen (specified by your config file).
 
 Expected output on GUI:
 
-![Uploading image.png…]()
+![image](https://github.com/jakemanger/fiddlercrabvr/assets/52495554/bd05bc5d-b496-40cb-ace0-b24091c8f415)
+
 
 Expected stimulus with `./configs/loom_with_crab.yaml`
 
