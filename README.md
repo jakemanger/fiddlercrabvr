@@ -11,7 +11,7 @@ If you intend to build your own experiment, please see the complete and well-doc
 
 The experiment uses a pre-built executable from unity that is controlled via python. It uses a slightly different approach to building and controlling an experiment to CAVE, presented in Ogawa et al. (2024), although both use closed-loop experiments with Unity and machine vision. This variation stems from a multi-laboratory collaboration from two teams. 
 
-This project comes with a skeleton of another toolkit for building Unity experiments for neurecological research, called NEVE. NEVE is a part of the ongoing Thesis of Jake Manger at the University of Western Australia. If you face any problems, please submit an issue, [here](https://github.com/jakemanger/fiddlercrab_VR/issues).
+This project comes with a skeleton of another toolkit for building Unity experiments for neurecological research, called NEVE. NEVE is a part of the ongoing Thesis of Jake Manger at the University of Western Australia. If you face any problems, please submit an issue, [here](https://github.com/jakemanger/fiddlercrabvr/issues).
 
 
 ### Install
