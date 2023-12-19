@@ -1,0 +1,70 @@
+# A simple intensity calibration yaml file that uses
+# the MovingRectangle stimulus to display simple changes in
+# intensity
+
+# Controls for the experiment
+# escape - stall Unity, end the experiment and give control to python.
+# F - flicker the stimulus and the sync square to sync unity with the camera
+# IF displayStimulusCode == True, then F just fades displayStimulusCode from off to on or on to off
+# tab - Unlock/lock the cursor from Unity allowing you to see or not see your mouse 
+
+# saving, control and syncing
+buildDir: ./builds/MovingRectangle
+frameDataIdCode: [1, 2, 3, 4, 5, 6]  # a id code representing the experiment id. used to identify which frame save data is for what experiment.
+animalCode: 1  # a id code representing the animal
+execution_order: [0, 1, 2, 3, 4, 5]  # 0 = first, 1 = second
+experimentDuration: 2  # total duration of the experiment (seconds). after this time (or if escape is pressed), unity will stall and give control back to python
+recordFrameData: 1  # 0 = false, 1 = true. record frame and stimulus related data?
+recordEachFrame: 1  # 0 = false, 1 = true. record data each frame. If false, then uses the recording frequency
+recordingFrequency: 1  # only used if recordFrameData=1 and recordEachFrame=0. time in seconds to record stimulus data
+manualControl: 0  # 0 = false, 1 = true. Give manual control to the user? if so, follow control the guide at the top of this script
+mouseMoveSpeed: 2  # move speed of mouse if manual_control=1
+flickerDuration: 0.1  # duration of flicker of sync square and stimulus when pressing f and at start of experiment
+syncSquareColourR: 1
+syncSquareColourG: 0
+syncSquareColourB: 0
+syncSquareColourA: 1 # alpha
+syncSquareDisplayNum: 0  # 0 = first connected display, 1 = second, and so on
+displayStimulusCode: 0  # display the stimulus code at all times on the sync square? (in white) 0 = false, 1 = true
+
+# perspective
+eyeHeight: 3.435  # height of the animals eyes relative to the bottom PIXEL of the front/side monitors - used for calculating perspective (cm). This is always in the center of the monitors.
+distanceToMonitors: 7  # distance from center of eye to all monitors (cm)
+monitorDimensionsX: 12.176  # x dimensions of monitors (cm)
+monitorDimensionsY: 6.87  # y dimensions of monitors (cm)
+# WARNING unity considers display numbers from left to right
+frontDisplayNum: 0  # 0 = first connected display, 1 = second, and so on
+rightDisplayNum: 1  # front refers to front camera, right refers to right and so on
+backDisplayNum: 2
+leftDisplayNum: 3
+cameraRotationX: 0
+cameraRotationY: 0
+cameraRotationZ: 0
+
+# stimuli
+darkAdaptTime: 0
+horizonHeight: 0
+aboveHorizonColourR: [0, 0.2, 0.4, 0.6, 0.8, 1]
+aboveHorizonColourG: [0, 0.2, 0.4, 0.6, 0.8, 1]
+aboveHorizonColourB: [0, 0.2, 0.4, 0.6, 0.8, 1]
+aboveHorizonColourA: 1
+belowHorizonColourR: [0, 0.2, 0.4, 0.6, 0.8, 1]
+belowHorizonColourG: [0, 0.2, 0.4, 0.6, 0.8, 1]
+belowHorizonColourB: [0, 0.2, 0.4, 0.6, 0.8, 1]
+belowHorizonColourA: 1
+
+width: 300
+height: 300
+startPosX: 0  # x coordinate of start position
+startPosY: 0  # y coordinate of start position
+endPosX: 500  # x coordinate of end position
+endPosY: 500  # y coordinate of end position
+numReps: 1 # the number of reps back and forth (0.5 = start to end, 1 = start to end to start, etc)
+
+duration: 1
+delayToApproach: 0
+stimulusColourR: 0
+stimulusColourG: 0
+stimulusColourB: 0
+stimulusColourA: 0
+

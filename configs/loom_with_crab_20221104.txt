@@ -1,0 +1,104 @@
+# Below are the parameters used to alter a unity experiment with the name
+# Loom
+
+# Controls for the experiment
+# escape - stall Unity, end the experiment and give control to python.
+# F - flicker the stimulus and the sync square to sync unity with the camera
+# IF displayStimulusCode == True, then F just fades displayStimulusCode from off to on or on to off
+# tab - Unlock/lock the cursor from Unity allowing you to see or not see your mouse 
+# Space - start movement/reset looming of the stimulus
+# IF manualControl==1,
+# Move the mouse - Move the stimulus in polar coordinates around the center of the aquariums
+# Scroll the mouse wheel - Make the stimulus larger or smaller
+# 0 - recenter stimulus to the center of the front screen (polar coordinates: 0, 0).
+
+# params to change
+execution_order: [0, 1, 2, 3, 4, 5, 6, 7]
+frameDataIdCode: [0, 1, 2, 3, 4, 5, 6, 7]
+
+rotationOffsetY: [90, 90, 270, 180, 90, 0, 270, 270]
+crabPosX: [30, -30, 30, -30, -30, -30, -30, -30] # -30 = LEFT, 30 = RIGHT
+fictracFeedback: [0, 1, 1, 0, 0, 0, 0, 1] # 1 = closed loop, 0 = open loop
+startAzimuth: [0, 0, 0, 0, -15, 0, 0, 0]
+endAzimuth: [0, 0, 0, 0, 15, 0, 0, 0]
+endDistance: [ 1.5, 200, 1.5, 200, 200, 1.5, 200, 1.5]
+
+animalCode: [3, 3, 4, 4, 6, 6, 1, 1]
+eyeHeight: [2.272, 2.272, 2.452, 2.452, 2.200, 2.200, 1.961, 1.961] # 2.864 # CHANGE ME PER CRAB
+crabPosY: [0.11, 0.11, 0.11, 0.11, 0.11, 0.11, 0.3, 0.3] # 1.05 # fudged TODO: fix this
+crabSize: [1.91, 1.91, 20.89, 20.89, 18.5, 18.5, 1.65, 1.65] #1.9 # carapace size if crabtype is 0, sphere size if crabtype is 1
+
+
+# general
+buildDir: ./builds/LoomWithCrab/
+experimentDuration: 99999 
+recordFrameData: 1 
+recordEachFrame: 1
+recordingFrequency: 1
+syncSquareColourR: 1
+syncSquareColourG: 0
+syncSquareColourB: 0
+syncSquareColourA: 1
+syncSquareDisplayNum: 3 
+displayStimulusCode: 1 
+startFictracFromStart: 0
+
+# perspective
+distanceToMonitors: 27 
+monitorDimensionsX: 52 
+monitorDimensionsY: 32 
+frontDisplayNum: 1 
+rightDisplayNum: 2 
+backDisplayNum: 3
+leftDisplayNum: 4
+darkAdaptTime: 0
+
+# stimuli
+# background
+aboveHorizonColourR: 0.5
+aboveHorizonColourG: 0.5
+aboveHorizonColourB: 0.5
+aboveHorizonColourA: 1
+belowHorizonColourR: 0.3
+belowHorizonColourG: 0.3
+belowHorizonColourB: 0.3
+belowHorizonColourA: 1
+horizonHeight: 0  
+# object
+startScaleX: 3
+startScaleY: 3
+startScaleZ: 3
+endScaleX: 3
+endScaleY: 3
+endScaleZ: 3
+startElevation: 15 
+
+endElevation: 15
+startDistance: 200
+directPath: 1  # should direct path be 0 for the second and 5th trial?
+duration: 10 
+numReps: 0.5 
+delayToApproach: 5 
+stimulusColourR: 0.3
+stimulusColourG: 0.3
+stimulusColourB: 0.3
+stimulusColourA: 1
+originX: 0 
+originY: 0 
+originZ: 0 
+
+crabPosZ: 0
+crabType: 0
+crabSphereColourR: 0.3
+crabSphereColourG: 0.3
+crabSphereColourB: 0.3
+
+burrowColourR: 0.3
+burrowColourG: 0.3
+burrowColourB: 0.3
+burrowColourA: 1
+
+zMultiplier: -1
+xMultiplier: -1
+
+rotationOffsetX: 0

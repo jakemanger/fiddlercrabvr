@@ -1,0 +1,172 @@
+crabController: crab (CrabMovementController)
+crabController.pos: (0.0, 0.0, 60.0)
+crabController.eyeHeight: 2
+crabController.speed: 0.1
+crabController.canPlay: False
+crabController.burrowColour: RGBA(0.500, 0.500, 0.500, 1.000)
+crabController.anim: crab (UnityEngine.Animation)
+crabController.burrowRenderer: Burrow (UnityEngine.MeshRenderer)
+crabController.crabType: 0
+crabController.crabSize: 1
+crabController.sphereColour: RGBA(1.000, 1.000, 1.000, 1.000)
+crabController.rotationOffset: (0.0, 0.0)
+crabController.crabTypes: UnityEngine.GameObject[]
+crabController.stimulusState: Waiting
+stimGenerator: SphericalStimulusGenerator (SphericalStimulusGenerator)
+stimGenerator.stimulusSize: 1
+stimGenerator.stimulusPolarPosition: (0.0, 0.0)
+stimGenerator.startPolarPosition: (-10.0, 0.0)
+stimGenerator.endPolarPosition: (0.0, 0.0)
+stimGenerator.startScale: (1.0, 1.0, 1.0)
+stimGenerator.endScale: (1.0, 1.0, 1.0)
+stimGenerator.origin: (0.0, 0.0, 0.0)
+stimGenerator.rotationOffset: (0.0, 0.0)
+stimGenerator.startDistance: 50
+stimGenerator.endDistance: 1
+stimGenerator.duration: 2
+stimGenerator.delayToApproach: 5
+stimGenerator.delayToAppear: 0
+stimGenerator.stimulusColour: RGBA(0.500, 0.500, 0.500, 1.000)
+stimGenerator.manualControl: False
+stimGenerator.mouseMoveSpeed: 1
+stimGenerator.directPath: True
+stimGenerator.hideAtEnd: False
+stimGenerator.ignoreKeyboard: False
+stimGenerator.mimicExpansionSpeed: False
+stimGenerator.mimicExpansionSpeedMethod: 0
+stimGenerator.referenceInitialDistance: 2
+stimGenerator.referenceEndDistance: 2
+stimGenerator.referenceSpeed: 1
+stimGenerator.equalDistance: 1
+stimGenerator.referenceDiameter: 1
+stimGenerator.moveTime: 1
+stimGenerator.referenceStartPolarPosition: (0.0, 0.0)
+stimGenerator.referenceEndPolarPosition: (0.0, 0.0)
+stimGenerator.gratingNum: 100
+stimGenerator.gratingIsSquare: 0
+stimGenerator.gratingMaxIntensity: 1
+stimGenerator.gratingMinIntensity: 0
+stimGenerator.flickerDuration: 0.1
+stimGenerator.canFlicker: False
+stimGenerator.flicker: False
+stimGenerator.timeSinceFlickerStart: 0
+stimGenerator.currentlyReturning: False
+stimGenerator.numReps: 0.5
+stimGenerator.numRepsDone: 0
+stimGenerator.wantToMove: False
+stimGenerator.justFinishedMoving: False
+stimGenerator.offsetFromCenter: 50
+stimGenerator.move: False
+stimGenerator.timeElapsed: 0.002689575
+stimGenerator.stimulusCartesianPosition: (0.0, 0.0, 0.0)
+stimGenerator.delayTimeElapsed: 0
+stimGenerator.delayToAppearTimeElapsed: 0
+stimGenerator.lastStimulusColour: RGBA(1.000, 1.000, 1.000, 1.000)
+stimGenerator.fixedAngularSizeMaterial: FixedAngularSize (UnityEngine.Material)
+stimGenerator.fixedAngularSize: False
+stimGenerator.fixXAxis: False
+stimGenerator.minAngularAngle: -30
+stimGenerator.maxAngularAngle: 30
+stimGenerator.stimulus: SphereStimulus (UnityEngine.GameObject)
+stimGenerator.stimulusRenderer: SphereStimulus (UnityEngine.MeshRenderer)
+stimGenerator.originalMaterial: 
+stimGenerator.stimulusType: 0
+stimGenerator.stimuli: UnityEngine.GameObject[]
+stimGenerator.outline: SphereStimulus (Outline)
+stimGenerator.outlineWidth: 5
+stimGenerator.drawOutline: False
+stimGenerator.outlineType: 0
+stimGenerator.outlineColor: RGBA(0.000, 0.000, 0.000, 1.000)
+stimGenerator.gratingSphereMesh: HorizontalGratingSphereStimulus (UnityEngine.MeshRenderer)
+stimGenerator.opaqueObject: False
+stimGenerator.target: Target (UnityEngine.Material)
+stimGenerator.opaqueTarget: OpaqueTarget (UnityEngine.Material)
+stimGenerator.stimulusState: Waiting
+skyboxMaterial: TwoColourHorizon (UnityEngine.Material)
+recieveInputFromSocket: True
+startFictracFromStart: False
+mustIncludeEveryParameter: False
+eyeHeight: 2
+distanceToMonitors: 7
+monitorDimensions: (12.2, 6.9)
+frontDisplayNum: 0
+rightDisplayNum: 1
+backDisplayNum: 2
+leftDisplayNum: 3
+cameraRotation: (0.0, 0.0, 0.0)
+experimentDuration: 60
+darkAdaptTime: 0
+recordFrameData: True
+recordEachFrame: True
+recordingFrequency: 1
+frameDataIdCode: 9999
+animalCode: 1
+syncSquarePos: (-29.8, 18.2)
+syncSquareScalar: 1
+syncSquareColor: RGBA(1.000, 0.000, 0.000, 1.000)
+syncSquare: SyncSquare (SyncSquare)
+syncSquare.flickerDuration: 0.1
+syncSquare.flickerColor: RGBA(1.000, 0.000, 0.000, 1.000)
+syncSquare.timeWaited: 0
+syncSquare.doFlicker: False
+syncSquare.displayStimulusCode: True
+syncSquare.stimulusCode: 9999
+syncSquare.animalCode: 1
+syncSquare.additionalInfo: AdditionalInfo (UnityEngine.GameObject)
+syncSquare.flicker: Flicker (UnityEngine.UI.Image)
+syncSquare.experimentId: ExperimentId (UnityEngine.UI.Text)
+syncSquare.animalId: AnimalId (UnityEngine.UI.Text)
+syncSquareDisplayNum: 0
+displayStimulusCode: True
+flickerDuration: 0.1
+camMon: Eyes (CameraMonitorController)
+camMon.frontDisplayNum: 0
+camMon.rightDisplayNum: 1
+camMon.backDisplayNum: 2
+camMon.leftDisplayNum: 3
+camMon.frontCam: FrontMonitor (AsymFrustum)
+camMon.rightCam: RightMonitor (AsymFrustum)
+camMon.backCam: BackMonitor (AsymFrustum)
+camMon.leftCam: LeftMonitor (AsymFrustum)
+camMon.upCam: 
+camMon.downCam: 
+frameWriter: SimulationManager (FrameWriter)
+frameWriter.recordEachFrame: True
+frameWriter.recordingFrequency: 1
+frameWriter.logsDir: trial_logs/
+frameWriter.stimTrans: SphereStimulus (UnityEngine.Transform)
+frameWriter.syncSquareImg: Flicker (UnityEngine.UI.Image)
+frameWriter.experimentId: 9999
+frameWriter.outputFilePath: trial_logs/20221021123029_9999.csv
+frameWriter._sw: System.IO.StreamWriter
+frameWriter.startNewFile: True
+frameWriter.startedNewFile: False
+frameWriter.stimulusControllers: GenericStimulusController[]
+frameWriter.stimulusStateImage: StimulusState (UnityEngine.UI.Image)
+frameWriter.timeText: Time (UnityEngine.UI.Text)
+frameWriter.stimControllerLength: 2
+frameWriter.transformsToRecord: System.Collections.Generic.List`1[UnityEngine.Transform]
+episodeController: SimulationManager (EpisodeControllerAgent)
+episodeController.experimentDuration: 60
+episodeController.timeSinceStimulusStart: 0
+episodeController.agentParameters: Unity.MLAgents.Agent+AgentParameters
+episodeController.hasUpgradedFromAgentParameters: True
+episodeController.MaxStep: 0
+episodeController.DemonstrationWriters: System.Collections.Generic.HashSet`1[Unity.MLAgents.Demonstrations.DemonstrationWriter]
+episodeController.sensors: System.Collections.Generic.List`1[Unity.MLAgents.Sensors.ISensor]
+episodeController.collectObservationsSensor: Unity.MLAgents.Sensors.VectorSensor
+blackOutCanvases: BlackOutCanvases (UnityEngine.GameObject)
+manualControl: False
+mouseMoveSpeed: 1
+floatChannel: Unity.MLAgents.EnvironmentParameters
+floatChannel.m_Channel: Unity.MLAgents.SideChannels.EnvironmentParametersChannel
+parametersExpected: System.Collections.Generic.List`1[System.String]
+parametersExpected._defaultCapacity: 4
+parametersExpected._items: System.String[]
+parametersExpected._size: 453
+parametersExpected._version: 421
+parametersExpected._syncRoot: 
+parametersExpected._emptyArray: System.String[]
+errorMessageObject: ErrorMessageCanvas (UnityEngine.GameObject)
+xMultiplier: 1
+zMultiplier: 1
