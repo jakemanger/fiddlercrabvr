@@ -20,7 +20,7 @@ This project comes with a skeleton of another toolkit for building Unity experim
 
 From the terminal or command-line:
 ```bash
-git clone git@github.com:jakemanger/NEVE.git 
+git clone git@github.com:jakemanger/fiddlercrabvr.git 
 ```
 
 Or alternatively use [Github desktop](https://desktop.github.com/) to clone this project into your desired folder.
